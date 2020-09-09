@@ -11,3 +11,9 @@ editor_options:
 Welcome to my research website.
 
 Click on this [link](Priprema.html) to see my results.
+
+```{r}
+library(knitr)
+kable(head(mtcars), caption = "Cars table")
+```
+
